@@ -1,6 +1,6 @@
-def imageName="192.168.44.44:8082/docker/backend"
-def dockerRegistry="https://192.168.44.44:8082"
-def registryCredentials="artifactory"
+def imageName=lzabinsk/panda-back"
+def dockerRegistry=""
+def registryCredentials="dockerhub"
 
 pipeline {
     agent {
